@@ -25,7 +25,7 @@ public class SimpleController {
     @Autowired
     BookRepository repo;
 
-    @GetMapping("/")
+    @GetMapping({"/","/welcome"})
     public String homePage(Model model) {
         model.addAttribute("appName", appName);
         return "home";
