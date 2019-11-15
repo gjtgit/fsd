@@ -1,0 +1,4 @@
+com\gaojt\persistence\repo\BookRepository.class
+com\gaojt\controller\SimpleController.class
+com\gaojt\config\Application.class
+com\gaojt\persistence\model\Book.class
